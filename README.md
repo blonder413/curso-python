@@ -56,3 +56,19 @@ pip install xhtml2pdf
 ```
 pip install jinja2
 ```
+
+- Pandas
+```
+pip install pandas
+```
+
+- openpyxl
+
+```
+pip install openpyxl
+```
+
+- xlrd para leer archivos excel
+```
+pip install xlrd
+```
