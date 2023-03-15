@@ -1,6 +1,11 @@
 for value in range(10):
     print(value)
 
+print('-'.rjust(10, '-'))
+
+for value in range(1, 5):
+    print(value)
+
 print('-'.rjust(50, '-'))
 
 for value in range(1,11):
