@@ -46,3 +46,13 @@ pip list
 ```
 pip install argparse
 ```
+
+- xthml2pdf
+```
+pip install xhtml2pdf
+```
+
+- jinja2
+```
+pip install jinja2
+```
