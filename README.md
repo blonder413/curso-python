@@ -78,7 +78,20 @@ pip install xlrd
 pip install psutil
 ```
 
-- pmw
+- pyjwt
+Si no viene instalado por defecto
 ```
-pip install pmw
+pip install pyjwt
+
+```
+Si no funciona eliminar primero jwt
+```
+pip uninstall jwt
+
+```
+
+- python-jose
+No funciona con pyjwt (no recomendado)
+```
+pip install pip install python-jose
 ```
