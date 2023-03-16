@@ -72,3 +72,13 @@ pip install openpyxl
 ```
 pip install xlrd
 ```
+
+- psutil
+```
+pip install psutil
+```
+
+- pmw
+```
+pip install pmw
+```
