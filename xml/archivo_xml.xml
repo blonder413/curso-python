@@ -1,0 +1,10 @@
+<root>
+    <doc>
+        <nodo1 name="nodo">texto nodo 1</nodo1>
+        <nodo2 atributo="manzana">texto nodo 2</nodo2>
+    </doc>
+    <doc>
+        <nodo1 name="nodo">texto nodo 1 segundo doc</nodo1>
+        <nodo2 atributo="manzana 2">texto nodo 2 segundo doc</nodo2>
+    </doc>
+</root>
