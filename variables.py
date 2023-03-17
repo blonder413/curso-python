@@ -11,6 +11,7 @@ any = any
 
 numero = int('413')
 print(type(nada))
+print(type(cadena))
 print(type(numero))
 print(type(range))
 print(type(lista))
