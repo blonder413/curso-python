@@ -99,3 +99,8 @@ pip install pip install python-jose
 ```
 pip install suds
 ```
+
+mysql-connector-python
+```
+pip install mysql-connector-python
+```
