@@ -95,3 +95,7 @@ No funciona con pyjwt (no recomendado)
 ```
 pip install pip install python-jose
 ```
+- suds
+```
+pip install suds
+```
