@@ -37,11 +37,15 @@ class Cliente(Persona):
     En caso de la herencia múltiple con métodos iguales se llamará a la clase nombrada primero en el paréntesis
     No es necesario sobreescribir el constructor si no voy a recibir más parámetros
     '''
+    def __init__(self, nombre, correo):
+        super().__init__(nombre)
+        self.correo = correo
 
-cliente = Cliente('jonathan')
+cliente = Cliente('jonathan', 'blonder413@gmail.com')
 print(cliente.publico())
 print(cliente._protegido())
 print(cliente.nombre)
+print(cliente.correo)
 # print(Persona().__privado())
 print(Persona('jonathan').get_privado())
 print(Persona('blonder413').nombre)
