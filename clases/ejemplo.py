@@ -31,8 +31,8 @@ class Ejemplo:
         Establecemos un valor para el atributo nombre
         Parameters
         ----------
-        parametro_1 : str
-            Nombre
+        nombre : str
+            Nombre a definir
         """
         self.nombre = nombre
 
