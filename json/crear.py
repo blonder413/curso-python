@@ -16,5 +16,10 @@ data['persona'].append({
     'vivo': True
 })
 
-with open(ruta + 'archivo_json.json', 'w') as file:
-    json.dump(data, file, indent=4)
+try:
+    with open(ruta + 'archivo_json.json', 'w') as file:
+        json.dump(data, file, indent=4)
+except PermissionError as e:
+    print('No tiene permisos para escribir en el directorio indicado')
+except FileNotFoundError as e:
+    print("El directorio indicado no existe")
