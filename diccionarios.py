@@ -5,6 +5,8 @@
 print('set'.center(20, '-'))
 usuario = {'jonathan', 'morales', '1985-04-13', 1.68}
 usuario.add('blonder413@gmail.com')
+usuario.discard('jonathan')     # Elimina un elemento
+usuario.remove('1985-04-13')    # Elimina un elemento
 print(usuario)
 print(type(usuario))
 # ---------------------------------------------------
