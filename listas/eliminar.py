@@ -22,3 +22,9 @@ del numeros[0:2]
 
 for i in numeros:
     print(i)
+
+numeros.clear() # Elimina todos los elementos de la lista
+print(numeros)
+
+del numeros # Elimina la variable
+print(numeros)  # Genera error porque la lista ya no existe
