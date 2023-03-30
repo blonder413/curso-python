@@ -6,6 +6,8 @@ except ZeroDivisionError as error:
     print(error)
 except TypeError as error:
     print('error')  # se recibe un string en lugar de un entero
+except Exception as error:
+    print('error')  # Esta es una excepción general, debe ir al final o no tomará en cuenta las demás
 finally:
     print('finalmente')
 
