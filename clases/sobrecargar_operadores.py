@@ -18,6 +18,12 @@ class Persona:
         sobrecargamos el operador <
         '''
         return self.nombre < otro.nombre
+    
+    def __add__(self, otro):
+        '''
+        Sobrecargamos el operador +
+        '''
+        return f'{self.nombre} y {otro.nombre}'
 
 personas = [
     Persona('jonathan', 'blonder413@gmail.com'),
@@ -25,6 +31,8 @@ personas = [
     Persona('anyi', 'acmendezmelo@gmail.com')
 ]
 
-personas.sort()
+personas.sort() # Requiere el operador < para ordenar, lo sobrecargamos para decirle que ordene por nombre
 for v in personas:
     print(v.nombre)
+
+print(personas[1] + personas[2])
