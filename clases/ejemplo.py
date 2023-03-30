@@ -7,7 +7,7 @@ class Ejemplo:
     """
 
     def __init__(self):
-        self.nombre = 'Jonathan'
+        self.nombre = 'Jonathan'    # Atributo de instancia
 
     @property
     def PI(self):
@@ -37,6 +37,7 @@ class Ejemplo:
         self.nombre = nombre
 
 ejemplo = Ejemplo()  # instanciamos
+ejemplo.apellido = "morales" # Este atributo no se comparte con otras instancias (Atributo de objeto)
 
 print(ejemplo.PI)  # accedemos a la constante PI
 print(isinstance(ejemplo, Ejemplo))   # Saber si es instancia de una clase
