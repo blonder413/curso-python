@@ -9,7 +9,7 @@ except TypeError as error:
 except Exception as error:
     print('error')  # Esta es una excepción general, debe ir al final o no tomará en cuenta las demás
 finally:
-    print('finalmente')
+    print('Se ejecuta después de todo, haya o no haya excepción')
 
 try:
     numero_1 = 413
@@ -19,6 +19,8 @@ except ZeroDivisionError as error:
     print(error)
 except ValueError as error: # ingresamos un valor que no puede ser convertido a int
     print(error)
+else:
+    print('se ejecuta si no ocurrió ninguna excepción')
 
 try:
     numero = int(input('ingrese el número: '))
