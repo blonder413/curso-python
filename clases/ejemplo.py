@@ -44,4 +44,4 @@ print(isinstance(ejemplo, Ejemplo))   # Saber si es instancia de una clase
 ejemplo.set_nombre('blonder')
 print(ejemplo.get_nombre())
 
-ejemplo.PI = 10  # intentamos alterar la constante
+# ejemplo.PI = 10  # intentamos alterar la constante
