@@ -4,6 +4,7 @@ Para las cadenas, las cadenas vacías es False, para las demás es True
 Para los diccionarios, los diccionarios vacíos es False, para los demás es True
 Para las listas, las listas vacías es False, para las demás es True
 Para las tuplas, las tuplas vacías es False, para las demás es True
+Para None se considera falso
 '''
 valor = bool(0)
 valor = bool(413)
@@ -11,4 +12,5 @@ valor = bool('')
 valor = bool({})
 valor = bool([])
 valor = bool( () )
+valor = None
 print(valor)
