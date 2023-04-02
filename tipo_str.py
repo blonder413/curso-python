@@ -35,3 +35,5 @@ texto = 'Hola\u0020Mundo\U0001F600'   # \u permite agregar un valor unicode, 4 v
 texto = 'Hola\x20Mundo'   # \x para hexadecimal
 texto = 'Hol' + chr(97) +' Mundo'   # chr permite esribir caracteres ascii
 print(texto)
+print(texto.islower())
+print(texto.isupper())
