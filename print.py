@@ -15,3 +15,6 @@ print("hola {1} el número es {0}".format(numero, nombre))
 
 print(f'el número es {numero}')
 print(f'el número es {numero + 1}')
+print(nombre.center(50, '-'))
+print(nombre.ljust(50, '-'))
+print(nombre.rjust(50, '-'))
