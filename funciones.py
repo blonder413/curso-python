@@ -33,3 +33,15 @@ def listar_nombres(*nombres):   # Este se trata como una tupla
         print(value)
 
 listar_nombres('jonathan', 'bridyith')
+
+def min_max(elementos):
+    '''
+    aunque se puede definir que una función regrese varios valores en realidad regresa una tupla
+    '''
+    return min(elementos), max(elementos)
+
+#min, max = min_max([1,2,3,4,5])
+#print(min,max)
+
+min = min_max([1,2,3,4,5])
+print(type(min))
