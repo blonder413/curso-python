@@ -3,9 +3,12 @@ Los set son mutables
 Los set manejan tipos de datos inmutables
 Los set contienen valores únicos
 '''
-conjunto = {'Jonathan', 1.68, True}
+conjunto = {'Jonathan', 1.68, '1985-04-13', True}
 set_vacio = set()
 conjunto.add('blonder413@gmail.com')
+conjunto.discard('jonathan')     # Elimina un elemento sin lanzar excepción
+conjunto.remove('1985-04-13')    # Elimina un elemento, lanza excepción si no encuentra el elemento
+
 conjunto = set([4,13,8,10])
 conjunto2 = {1985,1986}
 conjunto.update(conjunto2)
