@@ -110,3 +110,8 @@ pip install mysql-connector-python
 sudo apt install python3-psycopg2
 pip install psycopg2-binary
 ```
+
+- tkinter
+```
+sudo apt install python3-tk
+```
