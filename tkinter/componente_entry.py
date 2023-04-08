@@ -39,6 +39,6 @@ boton2= ttk.Button(ventana, text='Limpiar', command=limpiar_texto)
 boton2.grid(row=2, column=1)
 
 label_resultado = ttk.Label(ventana)
-label_resultado.grid(row=3, column=0)
+label_resultado.grid(row=3, column=0, columnspan=2)
 
 ventana.mainloop()
