@@ -6,12 +6,22 @@ ventana = tk.Tk()
 ventana.geometry('800x600')
 ventana.title('Ejemplo de menú')
 
+def salir():
+    # ventana.quit()        # cerrar la ventana, se recomienda usar también el método destroy
+    # ventana.destroy()
+    return exit()
+
 def crear_menu():
     menu_principal = Menu(ventana)
     # tearoff = False # Evitar que se separe el menú de la interfaz
     sub_menu_archivo = Menu(menu_principal, tearoff=False)
+    
     sub_menu_archivo.add_command(label='Nuevo')
+    sub_menu_archivo.add_separator()
+    sub_menu_archivo.add_command(label='Salir', command=salir)
+
     menu_principal.add_cascade(menu=sub_menu_archivo, label='Archivo')
+
     ventana.config(menu=menu_principal)
 
 etiqueta = ttk.Label(ventana, text='Mensaje')
