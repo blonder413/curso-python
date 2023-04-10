@@ -11,6 +11,7 @@ class Ventana:
 
     def crear_frame(self):
         frame1 = ttk.Notebook(self.ventana)
+        
         tab1 = ttk.Labelframe(frame1, text='DataList')
         frame1.add(tab1, text='Componente datalist')
         self.crear_combobox(tab1)
