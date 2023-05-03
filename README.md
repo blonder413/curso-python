@@ -115,3 +115,8 @@ pip install psycopg2-binary
 ```
 sudo apt install python3-tk
 ```
+
+- PySide6
+```
+pip install PySide6
+```
