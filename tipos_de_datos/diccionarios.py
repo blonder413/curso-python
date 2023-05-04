@@ -42,3 +42,12 @@ contactos = [
 ]
 print(type(contactos))
 print(type(contactos[0]))
+
+# Unir dos diccionarios
+uno = {'nombre': 'jonathan', 'correo': 'blonder413@gmail.com'}
+dos = {'estatura': 1.68}
+
+# tres = {**uno, **dos}   # No recomendado
+tres = uno | dos
+
+print(tres)
