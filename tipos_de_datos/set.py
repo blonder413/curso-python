@@ -26,3 +26,7 @@ print(set1.symmetric_difference(set3))  # Todos menos los comunes (opuesto a int
 print(set1.issubset(set3))
 print(set1.issuperset(set2))
 print(set2.isdisjoint(set3)) # True si no tiene elementos comunes
+
+# conjunto inmutable
+a = frozenset({1,2,3})
+# a.add(4) # no es posible agregar más elementos
