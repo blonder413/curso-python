@@ -5,8 +5,8 @@
 from pprint import pprint as pp
 print('diccionario'.center(20, '-'))
 persona = {
-    'nombre': 'jonathan',
-    'fecha_nacimiento': '1985-04-13',
+    'nombre': 'juan',
+    'fecha_nacimiento': '2050-04-13',
     'profesion': 'ingeniero de sistemas',
     'estatura': 1.68
     }
@@ -15,7 +15,7 @@ persona.pop('fecha_nacimiento')
 print(persona['nombre'])    # KeyError si no encuentra la llave
 print(persona.get('estatura'))
 print(persona.get('altura', 'No existe la llave'))
-edad = persona.setdefault('edad', 38)   # Asigna un valor si no existe la llave
+edad = persona.setdefault('edad', 18)   # Asigna un valor si no existe la llave
 print(persona)
 print(type(persona))
 for indice, value in persona.items():
@@ -37,17 +37,25 @@ del persona # Elimina la variable
 # ---------------------------------------------------
 print('lista de diccionarios'.center(50, '-'))
 contactos = [
-    {'nombre': 'jonathan', 'correo': 'blonder413@gmail.com'},
-    {'nombre': 'bridyith', 'correo': 'bridyith@hotmail.com'}
+    {'nombre': 'blonder', 'correo': 'blonder@hotmail.com'},
+    {'nombre': 'juan', 'correo': 'juan@hotmail.com'}
 ]
 print(type(contactos))
 print(type(contactos[0]))
 
 # Unir dos diccionarios
-uno = {'nombre': 'jonathan', 'correo': 'blonder413@gmail.com'}
+uno = {'nombre': 'jonathan', 'correo': 'blonder@hotmail.com'}
 dos = {'estatura': 1.68}
 
 # tres = {**uno, **dos}   # No recomendado
 tres = uno | dos
 
 print(tres)
+
+valores_al_cuadradado = {i: i*i for i in range(5)}
+print(valores_al_cuadradado)
+# lista = [1,2,3]
+# diccionario_erroneo = {lista: 'a'}
+tupla = (1,2,3)
+diccionario = {tupla: 'a'}
+print(diccionario)
