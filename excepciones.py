@@ -1,3 +1,13 @@
+n1 = 4;
+n2 = "13"
+
+# if type(n2) == int: # No se recomienda usar type para validar tipos de datos
+if isinstance(n1, int) and isinstance(n2, int):
+    print(n1 + n2)
+else:
+    print("deben ser enteros")
+
+
 try:
     numero_1 = 4
     numero_2 = '13'
