@@ -1,9 +1,12 @@
 '''
+Toda función retorna por defecto None a menos que se especifique un retorno
 los parámetros son las variables que se declaran en la función
 los argumentos son los valores que usamos cuando llamamos la función
 principio del buen desarrollo de software DRY (Don't Repeat Yourself)
 '''
 def funcion_vacia():... # Podemos pasar ... para definir una función sin contenido
+
+print(funcion_vacia())
 
 def nada_para_hacer():  # usamos pass para definir que no vamos a poner contenido
     pass
@@ -16,7 +19,7 @@ def saludar(nombre):
     '''
     return f'hola {nombre}'
 
-print(saludar('Jonathan')) # Pasamos el argumento 'Jonathan'
+print(saludar('Nemesis')) # Pasamos el argumento 'Nemesis'
 
 def despedir(mensaje = 'chao'):
     return mensaje
@@ -33,7 +36,12 @@ def listar_nombres(*nombres):   # Este se trata como una tupla
     for value in nombres:
         print(value)
 
-listar_nombres('jonathan', 'bridyith')
+listar_nombres('jill', 'chris')
+
+def function(tupla):
+    print(tupla)
+
+function((1,2))
 
 def min_max(elementos):
     '''
