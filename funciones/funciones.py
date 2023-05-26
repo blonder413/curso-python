@@ -1,6 +1,7 @@
 '''
 los parámetros son las variables que se declaran en la función
 los argumentos son los valores que usamos cuando llamamos la función
+principio del buen desarrollo de software DRY (Don't Repeat Yourself)
 '''
 def funcion_vacia():... # Podemos pasar ... para definir una función sin contenido
 
