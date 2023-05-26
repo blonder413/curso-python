@@ -36,10 +36,13 @@ class Ejemplo:
         """
         self.nombre = nombre
 
-print(type(Ejemplo()))
 
+print(Ejemplo())
 ejemplo = Ejemplo()  # instanciamos
-print(type(ejemplo))
+print(ejemplo)
+ejemplo2 = Ejemplo()
+print(Ejemplo())
+print(ejemplo2)
 ejemplo.apellido = "morales" # Este atributo no se comparte con otras instancias (Atributo de objeto)
 
 print(ejemplo.PI)  # accedemos a la constante PI
