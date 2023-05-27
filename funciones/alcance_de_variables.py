@@ -1,4 +1,4 @@
-var_global = 'jonathan'
+var_global = 'moira'
 
 def imprimir():
     # si vamos a modificar el valor debemos indicar que es global, para lectura no

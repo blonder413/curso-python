@@ -9,7 +9,7 @@ class Persona:
     def crear_persona_vacia(cls):
         return cls(None, None) # Llamamos al constructor
 
-persona = Persona('jonathan', 'blonder413@gmail.com')
+persona = Persona('chris', 'credfield@bsaa.org')
 print(persona.nombre)
 print(persona.correo)
 persona_vacia = Persona.crear_persona_vacia()

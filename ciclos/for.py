@@ -13,7 +13,7 @@ for value in range(1,11):
 
 print('-'.rjust(50, '-'))
 
-for value in 'jonathan':
+for value in 'ethan':
     print(value)
 
 print('-'.rjust(5, '-'))

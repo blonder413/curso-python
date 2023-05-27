@@ -26,9 +26,9 @@ class Persona:
         return f'{self.nombre} y {otro.nombre}'
 
 personas = [
-    Persona('jonathan', 'blonder413@gmail.com'),
-    Persona('bridyith', 'bridyith@hotmail.com'),
-    Persona('anyi', 'acmendezmelo@gmail.com')
+    Persona('jJill', 'jvalentine@bsaa.org'),
+    Persona('chris', 'creddfield@bsaa.org'),
+    Persona('claire', 'credfield@terrasave.org')
 ]
 
 personas.sort() # Requiere el operador < para ordenar, lo sobrecargamos para decirle que ordene por nombre

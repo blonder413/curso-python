@@ -8,12 +8,12 @@ print(next(multiplicacion))
 suma = sum(valor * valor for valor in range(4))
 print(suma)
 
-lista = ['jonathan', 'morales']
+lista = ['ethan', 'winters']
 generador = (valor for valor in lista)
 print(next(generador))
 print(next(generador))
 
-lista = ['bridyith', 'gonzález']
+lista = ['rose', 'winters']
 contador = 0
 def incrementar():
     global contador

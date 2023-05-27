@@ -18,5 +18,5 @@ dic2 = {'D': 4, 'E': 5}
 dic3 = {**dic1, **dic2} # Para los diccinarios debe usarse doble *
 print(dic3)
 
-lista = [*'Jonathan']
+lista = [*'Nemesis']
 print(lista)

@@ -1,25 +1,25 @@
-jonathan = ['jonathan', 'morales', 'salazar']
-bridyith = 'bridyith gonzález barragán'.split()
+jill = ['jill', 'valentine']
+claire = 'claire redfield'.split()
 
-# print(jonathan + bridyith)  # No modifica las listas
+# print(jill + claire)  # No modifica las listas
 
-jonathan.extend(bridyith)   # Agrega a la lista 1, los elementos de la lista 2
-# print(jonathan)
-jonathan.append('blonder')
+jill.extend(claire)   # Agrega a la lista 1, los elementos de la lista 2
+# print(jill)
+jill.append('blonder')
 
-# print(jonathan.index('morales'))    # obtener el índice del primer elemento que coincida
-# jonathan.reverse()  # invierte el orden de la lista
-# jonathan.sort() # ordena de forma ascendente
-# jonathan = sorted(jonathan)
-# jonathan.sort(reverse=True) # ordena de forma descendente
-# jonathan = sorted(jonathan, reverse=True)
-# jonathan = list(reversed(jonathan))
-# jonathan.sort(key=len) # ordena por el tamaño de las listas o cantidad de caracteres
-# print(jonathan)
-# print(min(jonathan))    # mínimo
-# print(max(jonathan))    # máximo
+# print(jill.index('morales'))    # obtener el índice del primer elemento que coincida
+# jill.reverse()  # invierte el orden de la lista
+# jill.sort() # ordena de forma ascendente
+# jill = sorted(jill)
+# jill.sort(reverse=True) # ordena de forma descendente
+# jill = sorted(jill, reverse=True)
+# jill = list(reversed(jill))
+# jill.sort(key=len) # ordena por el tamaño de las listas o cantidad de caracteres
+# print(jill)
+# print(min(jill))    # mínimo
+# print(max(jill))    # máximo
 
-datos = jonathan.copy() # apuntan a diferentes direcciones de memoria
-datos2 = jonathan   # apuntan a la misma dirección de memoria
+datos = jill.copy() # apuntan a diferentes direcciones de memoria
+datos2 = jill   # apuntan a la misma dirección de memoria
 
-print(jonathan)
+print(jill)

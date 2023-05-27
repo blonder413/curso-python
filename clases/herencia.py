@@ -38,10 +38,10 @@ class Cliente(Persona):
     No es necesario sobreescribir el constructor si no voy a recibir más parámetros
     '''
 
-cliente = Cliente('jonathan')
+cliente = Cliente('Mia')
 print(cliente.publico())
 print(cliente._protegido())
 print(cliente.nombre)
 # print(Persona().__privado())
-print(Persona('jonathan').get_privado())
-print(Persona('blonder413').nombre)
+print(Persona('mia').get_privado())
+print(Persona('ethan').nombre)

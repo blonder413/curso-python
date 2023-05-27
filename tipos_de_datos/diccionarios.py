@@ -37,14 +37,14 @@ del persona # Elimina la variable
 # ---------------------------------------------------
 print('lista de diccionarios'.center(50, '-'))
 contactos = [
-    {'nombre': 'blonder', 'correo': 'blonder@hotmail.com'},
+    {'nombre': 'blonder', 'correo': 'blonder@rgame.com'},
     {'nombre': 'juan', 'correo': 'juan@hotmail.com'}
 ]
 print(type(contactos))
 print(type(contactos[0]))
 
 # Unir dos diccionarios
-uno = {'nombre': 'jonathan', 'correo': 'blonder@hotmail.com'}
+uno = {'nombre': 'nemesis', 'correo': 'nemesis@hotmail.com'}
 dos = {'estatura': 1.68}
 
 # tres = {**uno, **dos}   # No recomendado

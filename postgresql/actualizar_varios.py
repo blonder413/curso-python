@@ -6,8 +6,8 @@ try:
     with conexion:
         with conexion.cursor() as cursor:   # with cierra el recurso del cursor
             datos = (
-                ("jonathan", "morales", "blonder413@outlook.com", 1),
-                ("yulian", "gonzález", "bridyith@hotmail.com", 2)
+                ("jill", "valentine", "jvalentine@bsaa.org", 1),
+                ("leon", "kenedy", "lskennedy@presidence.gov", 2)
             )
             sql = 'UPDATE persona SET nombre = %s, apellido = %s, email = %s WHERE id_persona = %s'
             cursor.executemany(sql, datos)

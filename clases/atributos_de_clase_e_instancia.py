@@ -4,7 +4,7 @@ class Persona:
     def __init__(self, nombre, apellido):
         self.nombre = nombre    # atributo de instancia
         self.apellido = apellido    # atributo de instancia
-persona1 = Persona('jonathan', 'morales')
+persona1 = Persona('jill', 'valentine')
 print(persona1.__dict__)    # atributos del objeto
 
 # creamos un atributo nuevo solo para este objeto
@@ -13,9 +13,9 @@ persona1.edad = 38
 print(persona1.edad)
 print(persona1.__dict__)
 print(Persona.edad) 
-persona2 = Persona('bridyith', 'gonzález')
+persona2 = Persona('chris', 'redfield')
 print(persona2.edad)
-persona2.correo = 'bridyith@hotmail.com'
+persona2.correo = 'credfiel@terrasave.org'
 print(persona2.__dict__)
 
 Persona.vivo = True # al crear objetos de clases se asocia a todos los objetos

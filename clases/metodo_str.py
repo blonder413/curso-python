@@ -14,5 +14,5 @@ class Persona:
         return f'mi nombre es {self.nombre}'
 
 juan = Persona()
-juan.nombre = 'jonathan'
+juan.nombre = 'Chris'
 print(juan)

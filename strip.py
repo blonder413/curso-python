@@ -1,5 +1,5 @@
-NOMBRE = " Jonathan "
-APELLIDO = "Morales"
+NOMBRE = " Barry "
+APELLIDO = "Burton"
 
 # elimina los espacios al principio y al final
 print(NOMBRE.strip() + APELLIDO) 

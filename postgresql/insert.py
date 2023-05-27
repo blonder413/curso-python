@@ -5,7 +5,7 @@ conexion = psycopg2.connect(user = 'blonder413', password = 'Mono/1985', host = 
 try:
     with conexion:
         with conexion.cursor() as cursor:   # with cierra el recurso del cursor
-            datos = ("yeimmy", "salazar", "kateri346@hotmail.com")
+            datos = ("leon", "kenney", "lskenney@presidence.gov")
             sql = 'INSERT INTO persona (nombre, apellido, email) VALUES (%s, %s, %s)'
             cursor.execute(sql, datos)
             #conexion.commit()  # No es necesario si usamos el bloque with

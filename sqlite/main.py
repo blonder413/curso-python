@@ -18,11 +18,11 @@ sql_crear = '''
 cu.execute(sql_crear) # Crear la tabla
 
 # Insertar registros
-cu.execute("insert into agenda values (?, ?, ?, ?)", (None, "Jonathan", "3006535784", "blonder413@gmail.com"))
+cu.execute("insert into agenda values (?, ?, ?, ?)", (None, "Rebecca", "5553943834", "rchambers@stars.gov"))
 
 contactos = [
-    (None, "Bridyith", "3117398602", "bridyith@hotmail.com"),
-    (None, "Anyi", "3108329850", "acmendezmelo@gmail.com")
+    (None, "Leon", "555043455", "lskennedy@rcpd.org"),
+    (None, "Claire", "555384794", "credfield@terrasave.org")
 ]
 cu.executemany("insert into agenda values (?, ?, ?, ?)", contactos)
 

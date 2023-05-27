@@ -53,11 +53,11 @@ class PersonaDao:
                 return cursor.rowcount
 
 if __name__ == '__main__':
-    #persona1 = Persona(nombre='rodrigo', apellido='marin', email='rodrimarin16@hotmail.com')
+    #persona1 = Persona(nombre='rebecca', apellido='chambers', email='rchambers@stars.gov')
     #personas_insertadas = PersonaDao.insertar(persona1)
     #log.debug(f'Personas insreadas: {personas_insertadas}')
 
-    #persona1 = Persona(2, 'bridyith', 'gonzález', 'bridyith@hootmail.com')
+    #persona1 = Persona(2, 'brad', 'bikers', 'bbikers@stars.gov')
     #personas_actualizadas = PersonaDao.actualizar(persona1)
     #log.debug(f'Persona actualizada: {personas_actualizadas}')
 

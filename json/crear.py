@@ -5,14 +5,14 @@ data = {}
 data['persona'] = []
 data['persona'].append({
     'id': 1,
-    'nombre': 'jonathan',
-    'correo': 'blonder413@gmail.com',
+    'nombre': 'rebecca',
+    'correo': 'rchambers@stars.gov',
     'vivo': True
 })
 data['persona'].append({
     'id': 2,
-    'nombre': 'bridyith',
-    'correo': 'bridyith@hotmail.com',
+    'nombre': 'brad',
+    'correo': 'bbikers@stars.gov',
     'vivo': True
 })
 

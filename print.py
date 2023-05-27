@@ -4,7 +4,7 @@ print("ejemplo")
 print("1","2","3","4","5")
 print("1","2","3","4","5", sep=",")
 
-nombre = "jonathan"
+nombre = "blonder"
 numero = 413
 print("el número es", numero)
 print("el número es " + str(numero))

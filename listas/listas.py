@@ -37,8 +37,8 @@ print(f'{sum(lista2)}')
 
 print('multidimensionales'.center(20, '-'))
 contactos = [   # el corchete debe ir en esta línea
-    ['jonathan', 'blonder413@gmail.com'],
-    ['bridyith', 'bridyith@hotmail.com']
+    ['albert', 'awesker@stars.gov'],
+    ['alex', 'awesker@revelations2.game']
 ]
 
 for value in contactos:

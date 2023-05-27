@@ -6,8 +6,8 @@ try:
     with conexion:
         with conexion.cursor() as cursor:   # with cierra el recurso del cursor
             datos = (
-                ("yeimmy", "salazar", "kateri346@hotmail.com"),
-                ("rodrigo", "marin", "rodrimarin16@hotmail.com")
+                ("barry", "burton", "bburton@bsaa.org"),
+                ("moira", "burton", "mburton@terrasave.org")
             )
             sql = 'INSERT INTO persona (nombre, apellido, email) VALUES (%s, %s, %s)'
             cursor.executemany(sql, datos)

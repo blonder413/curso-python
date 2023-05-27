@@ -7,7 +7,7 @@ class Ejemplo:
     """
 
     def __init__(self):
-        self.nombre = 'Jonathan'    # Atributo de instancia
+        self.nombre = 'Jill'    # Atributo de instancia
 
     @property
     def PI(self):

@@ -15,8 +15,8 @@ cu.execute(cear_tabla)
 
 
 datos = [
-    (None, "Bridyith", "bridyith@hotmail.com", "1986-10-08"),
-    (None, "Anyi", "acmendezmelo@gmail.com", "1990-08-17")
+    (None, "Jill", "jvalentine@stars.gov", "1986-10-08"),
+    (None, "Chris", "credfieldd@bsaa.org", "1990-08-17")
 ]
 #cu.executemany("insert into agenda values (%s, %s, %s, %s)", datos)
 
