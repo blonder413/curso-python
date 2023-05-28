@@ -10,10 +10,10 @@ else:
 
 try:
     numero_1 = 4
-    numero_2 = '13'
+    numero_2 = 0
     print(f'{numero_1 / numero_2}')
 except ZeroDivisionError as error:
-    print(error)
+    print(type(error).__name__)
 except TypeError as error:
     print('error')  # se recibe un string en lugar de un entero
 except Exception as error:
