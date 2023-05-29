@@ -10,16 +10,16 @@ try:
         host='localhost',
         port=3306,
         user='cursos',
-        passwd='cursos@Blonder413',
-        database='blonder413'
+        passwd='Cursos@Blonder413',
+        database='cursos_agenda'
     )
     '''
     config = {
         'host': 'localhost',
         'port': 3306,
         'user': 'cursos',
-        'passwd': 'cursos@Blonder413',
-        'database': 'blonder413'
+        'passwd': 'Cursos@Blonder413',
+        'database': 'cursos_agenda'
     }
     database = mysql.connector.connect(**config)
 except Exception as e:
