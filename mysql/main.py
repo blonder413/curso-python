@@ -11,7 +11,7 @@ create table if not exists agenda(
 cu.execute(cear_tabla)
 
 # Crear registro
-#cu.execute("insert into agenda values (%s, %s, %s, %s)", (None, "Jonathan", "blonder413@gmail.com", "1985-04-13"))
+#cu.execute("insert into agenda values (%s, %s, %s, %s)", (None, "Jill", "jvalentine@bsaa.org", "1970-04-13"))
 
 
 datos = [
