@@ -34,6 +34,11 @@ for row in cu.execute("select * from agenda"):
     print(f'{row[2]}', end=' | ')
     print(f'{row[3]}')
 
+
+cu.execute('DELETE FROM agenda WHERE id = 2')
+cx.commit()
+print('-'.center(50, '-'))
+
 cu.execute("select * from agenda")
 productos = cu.fetchall()
 for value in productos:
