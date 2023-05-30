@@ -12,7 +12,7 @@ ruta = os.path.dirname(ruta_archivo)
 
 try:
     archivo = open(ruta + '/prueba.txt', 'r', encoding='utf8')
-    #print(archivo.read())   # Leer todo el archivo
+    # print(archivo.read())   # Leer todo el archivo
     print(archivo.readline())   # Leer una línea
 
     for linea in archivo:
