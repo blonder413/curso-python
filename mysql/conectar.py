@@ -26,6 +26,7 @@ except Exception as e:
     print(e)
 
 try:
+    # buffered permite hacer muchas consultas usando el mismo cursor
     cu = database.cursor(buffered=True)
 except NameError as e:
     print(e)
