@@ -1,10 +1,10 @@
 nada = None
-cadena = 'Jonathan'
+cadena = 'blonder'
 flotante = 1.68
 boolean = True # True o False
-entero = 1985
+entero = 413
 range = range(5)
-lista = ['jonathan', 1985, 1.68]
+lista = ['blonder', 413, 1.68]
 diccionario = {}
 tupla = ()
 any = any
