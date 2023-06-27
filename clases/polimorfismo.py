@@ -1,7 +1,7 @@
-'''
+"""
 No es posible definir el tipo de parámetro de los métodos en Python
 Para aprovechar el polimorfismo podemos usar la función isinstance(objeto, Clase)
-'''
+"""
 class Persona:
     def saludar(self):
         return 'hola soy una persona'
@@ -28,5 +28,5 @@ print(get_nombre(cliente))
 persona = Persona()
 print(get_nombre(persona))
 
-helper = Helper();
+helper = Helper()
 print(get_nombre(helper))
