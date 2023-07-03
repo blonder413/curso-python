@@ -1,3 +1,10 @@
+## Crear un paquete
+
+Para definir un paquete basta crear un archivo __init__.py
+este archivo puede estar vacío pero también puede contener configuración
+
+# Crear un paquete instalable
+
 Primero creamos el archivo setup.py en la raiz de nuestro paquete
 
 ```
