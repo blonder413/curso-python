@@ -1,5 +1,5 @@
-# print(dir(__builtins__))    # Listado de funcines disponibles
-numeros = [1,2,3]   # Puede sera una tupla
+# print(dir(__builtins__))    # Listado de funciones disponibles
+numeros = [1, 2, 3]   # Puede sera una tupla
 letras = ['a', 'b', 'c']
 mezcla = zip(numeros, letras)    # Recibe valores iterables
 # print(list(mezcla)) # se consuma una vez que se usa
@@ -10,7 +10,7 @@ for numero, letra in zip(numeros, letras):
     print(f'Numero: {numero}, letra: {letra}')
 
 # separar un zip
-mezcla = [(1,'a'), (2, 'b'), (3,'c')]
+mezcla = [(1, 'a'), (2, 'b'), (3, 'c')]
 numeros, letras = zip(*mezcla)
 
 print(numeros, letras)
@@ -23,11 +23,11 @@ mezcla = zip(letras, numeros)
 print(sorted(zip(letras, numeros)))
 
 llaves = ['nombre', 'apellido']
-valores = ['bridyith', 'gonzález']
+valores = ['jill', 'valentine']
 diccionario = dict(zip(llaves, valores))    # crear un diccionario
 print(diccionario)
 
 llave = ['nombre']
-valor = ['yulian']
+valor = ['claire']
 diccionario.update(zip(llave, valor))   # Actualizar un valor de un diccionario
 print(diccionario)
