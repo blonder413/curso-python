@@ -47,6 +47,12 @@ pip install --upgrade pip
 ```
 
 ## Paquetes pip
+
+-pylint ( https://pylint.org/ )
+```
+pip install pylint
+```
+
 - argparse ( https://docs.python.org/es/3/library/argparse.html )
 ```
 pip install argparse
