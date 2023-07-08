@@ -41,6 +41,11 @@ python3 -m pip list
 pip list
 ```
 
+# Actualizar paquetes con pip
+```
+pip install --upgrade pip
+```
+
 ## Paquetes pip
 - argparse ( https://docs.python.org/es/3/library/argparse.html )
 ```
