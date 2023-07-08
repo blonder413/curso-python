@@ -53,6 +53,11 @@ pip install --upgrade pip
 pip install pylint
 ```
 
+- autopep8 ( https://pypi.org/project/autopep8/ )
+```
+pip install autopep8
+```
+
 - argparse ( https://docs.python.org/es/3/library/argparse.html )
 ```
 pip install argparse
