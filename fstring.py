@@ -10,6 +10,7 @@ print(VALOR, decimal)
 
 VALOR = 1304
 # Reemplazamos el separador de miles por un punto
+# neto = '{:,}'.format(VALOR).replace(',','.')
 neto = f"${VALOR:,}".replace(',','.')
 print(VALOR, neto)
 
