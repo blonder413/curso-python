@@ -41,9 +41,16 @@ python3 -m pip list
 pip list
 ```
 
-# Actualizar paquetes con pip
+## Actualizar paquetes con pip
 ```
 pip install --upgrade pip
+```
+
+## Requirements
+Crear un archivo llamado requirements.txt nos va a permitir conocer qué módulos son necesarios para nuestros proyectos.
+Además permite hacer una instalación rápida al compartir el proyecto.
+```
+pip install -r requirements.txt
 ```
 
 ## Paquetes pip
