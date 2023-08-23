@@ -6,6 +6,7 @@ claire = 'claire redfield'.split()
 jill.extend(claire)   # Agrega a la lista 1, los elementos de la lista 2
 # print(jill)
 jill.append('blonder')
+jill.insert(2, "bsaa")
 
 # print(jill.index('morales'))    # obtener el índice del primer elemento que coincida
 # jill.reverse()  # invierte el orden de la lista
