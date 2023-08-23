@@ -8,5 +8,5 @@ try:
     archivo.write('\nagregamos otra línea')
 except Exception as e:
     print(e)
-#finally:
-    #archivo.close()
+# finally:
+#     archivo.close()
