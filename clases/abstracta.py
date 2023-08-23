@@ -1,8 +1,9 @@
-'''
-Las clases abstractas no se pueden instanciar
+"""
+Las clases abstractas con métodos abstractos no se pueden instanciar
 Para definir una clase abstracta debe heredar de ABC (Abstract Base clase)
-'''
+"""
 from abc import ABC, abstractmethod
+
 
 class Abstracta(ABC):
     @abstractmethod
@@ -13,6 +14,7 @@ class Abstracta(ABC):
         '''
         pass
 
+
 class Hija(Abstracta):
     def metodo_abstracto(self):
         '''
@@ -20,4 +22,6 @@ class Hija(Abstracta):
         '''
         return 'se debe definir por heredar de una clase abstracta'
 
+
+# abstracta = Abstracta()
 hija = Hija()
