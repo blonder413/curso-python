@@ -40,7 +40,8 @@ cx.commit()
 print('-'.center(50, '-'))
 
 cu.execute("select * from agenda")
-productos = cu.fetchall()
+productos = cu.fetchall()   # Trae todos los registros
+productos = cu.fetchmany(10)    # Trae la cantidad de registros indicados
 for value in productos:
     print(f'{value[0]}', end=' | ')
     print(f'{value[1]}', end=' | ')
