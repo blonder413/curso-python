@@ -6,11 +6,13 @@
 Primero debemos instalar el paquete necesario para crear entornos virtuales
 ```
 sudo apt install python3.10-venv
+sudo apt install python-virtualenv
 ```
 
 Primero debemos crear el entorno virtual, en este caso creamos el directorio ```.venv```
 ```
 python3 -m venv .venv
+virtualenv .venv
 ```
 
 Luego debemos activarlo
