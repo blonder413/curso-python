@@ -31,9 +31,20 @@ class DocString:
         int
             Resultado de la suma
         """
+    
+
+    def saludo(self, nombre):
+        """
+        Retorna un mensaje de saludo según el nombre indicado
+        No recomendado
+        :param nombre: Nombre a mostrar
+        :type nombre: str
+        :return: Mensaje de saludo
+        :rtype: str
+        """
+        return f"hola {nombre}"
 
 
 # help(DocString)
 # print(DocString.__doc__)
-help(DocString.mi_metodo)
-# help(DocString.suma)
+help(DocString.suma)
