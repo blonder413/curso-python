@@ -13,3 +13,6 @@ octal = int('27', 8)    # octal a decimal
 hexadecimal = int('17', 16) # hexadeimal a decimal
 
 print(binario)
+
+numero = 121_414_141_412
+print(numero)
