@@ -10,6 +10,9 @@ response = requests.get(endpoint, timeout = 30)
 # print(response.text)
 # print(response.json())
 
-for value in response.json():
-    #print(value, end='\n')
-    print(f"[{value['id']}] {value['titulo']}")
+if response.status_code == 200:
+    for value in response.json():
+        #print(value, end='\n')
+        print(f"[{value['id']}] {value['titulo']}")
+else:
+    print("no se obtuvo respuesta positiva de la API")
