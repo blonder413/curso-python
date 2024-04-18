@@ -1,3 +1,7 @@
+"""
+El ciclo for permite ejecutar un bloque de código varias veces
+el nombre de la variable asignada debe ser snake_case para cumplir la norma python:S117
+"""
 for value in range(10):
     print(value)
 
