@@ -22,6 +22,7 @@ print(pais)
 
 # Mostrar dirección de memoria
 print(id(edad))
+print(hex(id(altura)))
 
 entero = 413
 flotante = 1.68
