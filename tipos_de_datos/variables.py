@@ -29,3 +29,10 @@ flotante = 1.68
 nada = None
 texto = "texto"
 boleano = True  # Debe ir la primera letra en mayúscula (True/False)
+
+entero2 = entero
+print("entero:", hex(id(entero)))
+print("entero2:", hex(id(entero2)))
+entero = 810  # Cambia su dirección en memoria
+print("entero:", hex(id(entero)))
+print("entero2:", hex(id(entero2)))
