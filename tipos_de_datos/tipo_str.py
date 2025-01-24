@@ -9,18 +9,23 @@ print(mensaje)
 texto = mensaje.upper()
 print(texto)
 
-nombre = ('jonathan', 'morales', 'salazar')
+nombre = ('jill', 'valentine')
 print('-'.join(nombre))
 print(mensaje.split())
 
-nombre = 'jonathan'
+nombre = 'jill'
+"""
+Si intentamos reemplazar algún caracter genera error debido a la inmutabilidad
+TypeError: 'str' object does not support item assignment
+nombre[0] = 'J'
+"""
 edad = 38
 altura = 1.68
 mensaje = 'nombre %s, edad %d años'%(nombre, edad)
 mensaje = 'Nombre {} Edad {} EstAlturaatura {:.2f}'.format(nombre, edad, altura)
 mensaje = 'Nombre {1} Edad {0} Altura {2:.2f}'.format(edad, nombre, altura)
 mensaje = 'Nombre {n} Edad {e} Altura {a:.2f}'.format(e = edad, n = nombre, a = altura)
-diccionario = {'nombre':'jonathan', 'edad':38,'altura':1.68}
+diccionario = {'nombre':'jill', 'edad':38,'altura':1.68}
 mensaje = 'Nombre {persona[nombre]} - Edad {persona[edad]} - Altura {persona[altura]:.2f}'.format(persona=diccionario)
 mensaje = f'Nombre {nombre} - Edad {edad} - Altura {altura}'
 print(mensaje)
