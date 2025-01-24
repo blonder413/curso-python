@@ -1,26 +1,30 @@
-nada = None
-cadena = 'blonder'
-flotante = 1.68
-boolean = True # True o False
-entero = 413
-range = range(5)
-lista = ['blonder', 413, 1.68]
-diccionario = {}
-tupla = ()
-any = any
-binario = 0b1010    # debe empezar con 0b
-octal = 0o12        # debe empezar on 0o
-hexadecimal = 0xA   # debe empezar con 0x
-byte = b'texto'
+"""
+Las variables permiten dar un nombre a un espacio en memoria.
+Así podemos acceder a los valores almacenados.
+1. Puede contener letras mayúsculas y minúsculas, número y guión bajo(_)
+2. No puede empezar con un número
+3. No se pueden usar palabras reservadas cono for, if, class, etc
+4. Es sensible a mayúsuclas y minúsculas
+Se suele usar snake_case
+Los nombres deben representar su contenido
+"""
 
-numero = int('413')
-print(type(nada))
-print(type(cadena))
-print(type(numero))
-print(type(range))
-print(type(lista))
-print(type(diccionario))
-print(type(tupla))
-print(type(any))
-print(type(hexadecimal))
-print(type(byte))
+# El tipado es dinámico y no es estricto
+edad = 28
+altura = 1.68
+# Definir el tipo de dato es solo para referencia, no lo hace estricto
+pais: str = "Colombia"
+
+print("edad:", edad)
+print(f"altura: {altura}")
+pais = 413
+print(pais)
+
+# Mostrar dirección de memoria
+print(id(edad))
+
+entero = 413
+flotante = 1.68
+nada = None
+texto = "texto"
+boleano = True  # Debe ir la primera letra en mayúscula (True/False)
